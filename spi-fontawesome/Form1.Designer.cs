@@ -59,6 +59,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel_dashboard = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_spi)).BeginInit();
@@ -559,12 +560,21 @@
             this.panel_dashboard.Size = new System.Drawing.Size(948, 0);
             this.panel_dashboard.TabIndex = 3;
             // 
+            // panel5
+            // 
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(266, 37);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(948, 743);
+            this.panel5.TabIndex = 4;
+            // 
             // frm_dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1214, 815);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel_dashboard);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -618,6 +628,7 @@
         private FontAwesome.Sharp.IconButton ic_hide_frm;
         private FontAwesome.Sharp.IconButton ic_mini_scr;
         private System.Windows.Forms.Panel panel_dashboard;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 
